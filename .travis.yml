@@ -1,0 +1,3 @@
+before_script:
+  - export RAILS_ENV=test
+  - bundle exec rake db:migrate --trace
