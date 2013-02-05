@@ -1,6 +1,7 @@
 SampleWebsite::Application.routes.draw do
   root :to => 'pages#home'
   match 'about' => 'pages#about'
+  match 'contacts' => 'pages#contacts'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
